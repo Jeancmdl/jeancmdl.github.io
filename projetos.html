@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Projetos e Skills de Jean Lima — Automação, Infraestrutura, Linux" />
+  <title>Projetos | Jean Lima</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="projetos.css" />
+</head>
+<body>
+  <header class="header-projects">
+    <div class="header-content">
+      <h1>Projetos & Skills</h1>
+      <a href="index.html" class="button">← Voltar</a>
+    </div>
+  </header>
+
+  <main class="projects-container">
+    
+    <!-- Seção Linux -->
+    <section class="project-section">
+      <div class="section-header">
+        <h2>🐧 Linux & Administração de Sistemas</h2>
+        <span class="badge">Systems</span>
+      </div>
+      
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Administração de Servidores</h3>
+          </div>
+          <p>Gerenciamento completo de servidores Linux (CentOS, Rocky, RHEL), otimização de performance, armazenamento e tuning de infraestrutura RedHat.</p>
+          <div class="tech-tags">
+            <span class="tag">RedHat</span>
+            <span class="tag">Admin</span>
+            <span class="tag">Performance</span>
+            <span class="tag">Storage</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>LVM, sysctl, ulimit, systemd service management</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Scripts & Automação</h3>
+          </div>
+          <p>Desenvolvimento de scripts em Bash e Python para automação de tarefas repetitivas, backup, sincronização e monitoramento.</p>
+          <div class="tech-tags">
+            <span class="tag">Bash</span>
+            <span class="tag">Python</span>
+            <span class="tag">Scripting</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>#!/bin/bash - scripts production-ready</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Hardening & Segurança</h3>
+          </div>
+          <p>Implementação de boas práticas de segurança, CIS Benchmarks, gerenciamento de permissões, auditoria e compliance.</p>
+          <div class="tech-tags">
+            <span class="tag">Security</span>
+            <span class="tag">Hardening</span>
+            <span class="tag">Compliance</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>SELinux, ACLs, SSH hardening, CIS Benchmarks</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Serviços & Daemons</h3>
+          </div>
+          <p>Configuração e gerenciamento de serviços críticos: Apache, Nginx, MySQL, PostgreSQL, Tomcat e outros.</p>
+          <div class="tech-tags">
+            <span class="tag">Web Server</span>
+            <span class="tag">Database</span>
+            <span class="tag">Services</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>systemctl, journalctl, service management</code>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção Infrastructure as Code (IaC) -->
+    <section class="project-section">
+      <div class="section-header">
+        <h2>📋 Infrastructure as Code (IaC)</h2>
+        <span class="badge">IaC</span>
+      </div>
+      
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Versionamento & Git</h3>
+          </div>
+          <p>Controle de versão de código infraestrutura, commits bem estruturados, branching strategy e colaboração em equipe com Git.</p>
+          <div class="tech-tags">
+            <span class="tag">Git</span>
+            <span class="tag">Version Control</span>
+            <span class="tag">Collaboration</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>git push, pull requests, branch strategy (GitFlow)</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Ansible as Code</h3>
+          </div>
+          <p>Toda infraestrutura documentada e versionada em playbooks Ansible, permitindo deploy idempotente e reproducível em segundos.</p>
+          <div class="tech-tags">
+            <span class="tag">Ansible</span>
+            <span class="tag">IaC</span>
+            <span class="tag">Deployment</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>ansible-playbook site.yml && infra deploy em instantes</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Código & Documentação</h3>
+          </div>
+          <p>Playbooks bem estruturados, documentados e testáveis. Código limpo, modular e reutilizável para diferentes ambientes.</p>
+          <div class="tech-tags">
+            <span class="tag">Code Quality</span>
+            <span class="tag">Documentation</span>
+            <span class="tag">Best Practices</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>roles, variables, templates, test coverage</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Deploy Automatizado</h3>
+          </div>
+          <p>Infraestrutura inteira aprovisionada e configurada em minutos. Rollback automático, health checks e zero-downtime deployments.</p>
+          <div class="tech-tags">
+            <span class="tag">Deployment</span>
+            <span class="tag">Automation</span>
+            <span class="tag">CI/CD</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>ansible-playbook && full stack online em segundos</code>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção Ansible -->
+    <section class="project-section">
+      <div class="section-header">
+        <h2>🔴 Automação com Ansible</h2>
+        <span class="badge">DevOps</span>
+      </div>
+      
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Configuração de Servidores</h3>
+          </div>
+          <p>Automação completa de provisionamento e configuração de servidores Linux, aplicando hardening de segurança e instalação de dependências.</p>
+          <div class="tech-tags">
+            <span class="tag">Ansible</span>
+            <span class="tag">Linux</span>
+            <span class="tag">Security</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>ansible-playbook site.yml -i inventory.ini</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Deploy Automatizado</h3>
+          </div>
+          <p>Playbooks para deploy de aplicações, gerenciamento de containers, atualização de sistemas e rollback automático em caso de falhas.</p>
+          <div class="tech-tags">
+            <span class="tag">Ansible</span>
+            <span class="tag">Docker</span>
+            <span class="tag">CI/CD</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>handlers e tarefas condicionais para deploy zero-downtime</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Monitoramento & Alertas</h3>
+          </div>
+          <p>Instalação e configuração automatizada de ferramentas de monitoramento como Prometheus, Grafana, Zabbix e AlertManager.</p>
+          <div class="tech-tags">
+            <span class="tag">Ansible</span>
+            <span class="tag">Prometheus</span>
+            <span class="tag">Zabbix</span>
+            <span class="tag">Monitoring</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>Playbooks para setup de stack de monitoramento</code>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção Infraestrutura de TI -->
+    <section class="project-section">
+      <div class="section-header">
+        <h2>🏗️ Infraestrutura de TI</h2>
+        <span class="badge">Infrastructure</span>
+      </div>
+      
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Arquitetura em Nuvem</h3>
+          </div>
+          <p>Design e implementação de arquiteturas em cloud (AWS, Azure, GCP, DigitalOcean), com alta disponibilidade, escalabilidade, gerenciamento de DNS e disaster recovery.</p>
+          <div class="tech-tags">
+            <span class="tag">AWS</span>
+            <span class="tag">DigitalOcean</span>
+            <span class="tag">Cloud</span>
+            <span class="tag">DNS</span>
+            <span class="tag">Architecture</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>VPC, Route53, Droplets, Load Balancer, DNS Management</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Redes & Segurança</h3>
+          </div>
+          <p>Configuração de redes, firewalls, VPNs (site-to-site e client), políticas de acesso, autenticação multi-fator e hardening de infraestrutura com compliance e segurança em foco.</p>
+          <div class="tech-tags">
+            <span class="tag">Networking</span>
+            <span class="tag">Security</span>
+            <span class="tag">VPN</span>
+            <span class="tag">MFA</span>
+            <span class="tag">Firewall</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>firewall-cmd, VPN IPSec, DUO Authentication, iptables</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Virtualização & Containers</h3>
+          </div>
+          <p>Gerenciamento de hypervisores (KVM, Hyper-V), Docker, Kubernetes, Podman e orquestração de containers em ambiente produção.</p>
+          <div class="tech-tags">
+            <span class="tag">Docker</span>
+            <span class="tag">Kubernetes</span>
+            <span class="tag">Podman</span>
+            <span class="tag">Podlet</span>
+            <span class="tag">Virtualization</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>kubectl, podman, Helm charts, Deployment K8s</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Backup & Disaster Recovery</h3>
+          </div>
+          <p>Estratégias de backup, replicação de dados, planos de DR e testes de recuperação para minimizar tempo de inatividade.</p>
+          <div class="tech-tags">
+            <span class="tag">Backup</span>
+            <span class="tag">Recovery</span>
+            <span class="tag">High Availability</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>Veeam, Rsync, AWS Backup</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Windows Server & Active Directory</h3>
+          </div>
+          <p>Administração de servidores Windows, gerenciamento centralizado com Active Directory, políticas de grupo, autenticação e controle de acesso em ambientes corporativos.</p>
+          <div class="tech-tags">
+            <span class="tag">Windows Server</span>
+            <span class="tag">Active Directory</span>
+            <span class="tag">Group Policy</span>
+            <span class="tag">Authentication</span>
+            <span class="tag">IAM</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>AD setup, GPO, user management, domain join, PowerShell</code>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção Inteligência Artificial & IA -->
+    <section class="project-section">
+      <div class="section-header">
+        <h2>🤖 Inteligência Artificial & Automação Inteligente</h2>
+        <span class="badge">AI</span>
+      </div>
+      
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Criação de Código com IA</h3>
+          </div>
+          <p>Utilização de assistentes de IA (GitHub Copilot, ChatGPT) para geração de código, scripts e documentação em tempo real. Aceleração do desenvolvimento com qualidade.</p>
+          <div class="tech-tags">
+            <span class="tag">GitHub Copilot</span>
+            <span class="tag">ChatGPT</span>
+            <span class="tag">Code Generation</span>
+            <span class="tag">VS Code</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>IA gerando Ansible playbooks, scripts Bash, Python</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Análise de Dados & Relatórios</h3>
+          </div>
+          <p>Utilização de IA em ferramentas como Google Sheets, Microsoft Excel para análise automatizada de dados, geração de insights e relatórios inteligentes.</p>
+          <div class="tech-tags">
+            <span class="tag">Google Sheets</span>
+            <span class="tag">Microsoft Excel</span>
+            <span class="tag">Data Analysis</span>
+            <span class="tag">BI</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>Fórmulas IA, análise de padrões, relatórios automáticos</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Levantamento & Comparação de Dados</h3>
+          </div>
+          <p>Coleta, estruturação e comparação de dados usando IA. Identificação de anomalias, tendências e comparativas entre diferentes fontes de informação.</p>
+          <div class="tech-tags">
+            <span class="tag">Data Collection</span>
+            <span class="tag">Comparison</span>
+            <span class="tag">Anomaly Detection</span>
+            <span class="tag">AI Analysis</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>IA comparando logs, métricas de performance e alertas</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Análise & Resolução de Problemas</h3>
+          </div>
+          <p>IA para diagnosticar problemas de infraestrutura, sugerir soluções e otimizações. Troubleshooting inteligente e automático de erros e gargalos.</p>
+          <div class="tech-tags">
+            <span class="tag">Troubleshooting</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Optimization</span>
+            <span class="tag">AI</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>IA analisando logs de erro, sugerindo fixes automáticas</code>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção Middleware -->
+    <section class="project-section">
+      <div class="section-header">
+        <h2>⚙️ Middleware & Integração</h2>
+        <span class="badge">Middleware</span>
+      </div>
+      
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Connect:Direct Unix</h3>
+          </div>
+          <p>Configuração e gerenciamento de Connect:Direct Unix para transferência segura de arquivos, automação de processos e integração entre sistemas.</p>
+          <div class="tech-tags">
+            <span class="tag">Connect:Direct</span>
+            <span class="tag">File Transfer</span>
+            <span class="tag">Integration</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>Nodes, Process, Connections, API management</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Gerenciamento de Conexões</h3>
+          </div>
+          <p>Configuração de conexões entre sistemas, monitoramento de canais de comunicação, troubleshooting de conectividade e tuning de performance.</p>
+          <div class="tech-tags">
+            <span class="tag">Networking</span>
+            <span class="tag">Connectivity</span>
+            <span class="tag">Troubleshooting</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>TCP/IP, Port management, Connection pooling</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Análise & Monitoramento de Logs</h3>
+          </div>
+          <p>Monitoramento de logs de middleware, análise de erros, rastreamento de transações e auditoria de processos críticos.</p>
+          <div class="tech-tags">
+            <span class="tag">Logs</span>
+            <span class="tag">Monitoring</span>
+            <span class="tag">Troubleshooting</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>Log parsing, grep, awk, ELK Stack</code>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-header">
+            <h3>Node Management</h3>
+          </div>
+          <p>Administração de nodes em infraestrutura de middleware, configuração de hosts, gerenciamento de recursos e otimização de performance.</p>
+          <div class="tech-tags">
+            <span class="tag">Node Management</span>
+            <span class="tag">Infrastructure</span>
+            <span class="tag">Performance</span>
+          </div>
+          <div class="example">
+            <strong>Exemplo:</strong>
+            <code>Node setup, clustering, load balancing</code>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer-projects">
+    <p>© 2026 Jean Lima • Infraestrutura & Segurança</p>
+    <a href="index.html" class="button">Voltar ao Início</a>
+  </footer>
+</body>
+</html>
