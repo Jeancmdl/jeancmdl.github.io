@@ -75,8 +75,41 @@ button:hover {
   border-color: #0ea5e9;
 }
 
+.logos-footer {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.logos-footer h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #64748b;
+  margin-bottom: 15px;
+}
+
+.logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.logos-container img {
+  height: 40px;
+  width: auto;
+  opacity: 0.7;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.logos-container img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
 .header-left-side h3 {
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 13px;
   color: #64748b;
 }
